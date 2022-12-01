@@ -9,7 +9,7 @@ import streamlit as st
 import pandas as pd
 import plotly_express as px
 
-df = pd.read_csv(r'C:\Users\HP USERPC\Desktop\Telecom_analysis\data\telecom.csv')
+df = pd.read_csv(r'data\telecom.csv')
 df = df.fillna(0)
 #-------Defining customerage group
 def age(df):

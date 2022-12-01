@@ -13,7 +13,7 @@ from sklearn.metrics import mean_absolute_error
 from sklearn.tree import DecisionTreeRegressor
 
 #---------READING THE FILE-----
-df = pd.read_csv(r'C:\Users\HP USERPC\Desktop\Telecom_analysis\data\telecom.csv')
+df = pd.read_csv(r'data/telecom.csv')
 df = df.fillna(0)
 #-----WRTIE UP-----
 st.header('AI PREDICTION 🤖')

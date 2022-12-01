@@ -13,7 +13,7 @@ st.set_page_config(page_title=(page_title),page_icon = page_icon, layout = layou
 st.title(page_title + '' + page_icon)
 
 #-------READING IN THE DATA
-df = pd.read_csv(r'C:\Users\HP USERPC\Desktop\Telecom_analysis\data\telecom.csv')
+df = pd.read_csv('data/telecom.csv')
 df = df.fillna(0)
 
 def age(df):
